@@ -1,0 +1,62 @@
+# /etc/xdg/user-dirs.defaults - Default paths for XDG user directories
+#
+# Documentation sources:
+# - XDG Base Directory Specification: https://specifications.freedesktop.org/basedir-spec/
+# - Arch Linux Wiki: https://wiki.archlinux.org/title/XDG_user_directories
+
+# Standard Directories
+# ------------------------------
+
+# Primary workspace for quick access
+# Default: Desktop
+DESKTOP=workshop
+
+# Document and project template storage
+# Default: Templates
+TEMPLATES=workshop/.templates
+
+# Network-accessible shared directory
+# Default: Public
+PUBLICSHARE=workshop/public
+
+# Default location for downloaded files
+# Default: Downloads
+DOWNLOAD=download
+
+# Personal document storage
+# Default: Documents
+DOCUMENTS=files
+
+# Audio file collection
+# Default: Music
+MUSIC=music
+
+# Image file storage
+# Default: Pictures
+PICTURES=imgs
+
+# Video content storage
+# Default: Videos
+VIDEOS=vids
+
+# Localization Examples
+# ------------------------------
+# German (de_DE):
+## DOCUMENTS=Dokumente
+## DOWNLOAD=Downloads
+## MUSIC=Musik
+## PICTURES=Bilder
+## VIDEOS=Videos
+## TEMPLATES=Vorlagen
+## PUBLICSHARE=Öffentlich
+## DESKTOP=Arbeitsfläche
+# Japanese (ja_JP):
+## DOCUMENTS=文書
+## DOWNLOAD=ダウンロード
+## MUSIC=音楽
+## PICTURES=画像
+## VIDEOS=動画
+## TEMPLATES=テンプレート
+## PUBLICSHARE=公開
+## DESKTOP=デスクトップ
+
