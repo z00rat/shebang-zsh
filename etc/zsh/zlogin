@@ -1,0 +1,4 @@
+#
+# `.zlogin` is for login shells. It is sourced on the start of a login shell but after .zshrc, if the shell is also interactive.
+#
+
