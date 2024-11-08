@@ -1,0 +1,10 @@
+zsh
+bat
+eza
+zoxide
+tree
+wget
+curl
+micro
+vivid
+
