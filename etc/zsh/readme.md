@@ -1,8 +1,18 @@
+# File Purpose:
+   - **zshenv**: Environment variables, shell options
+   - **zprofile**: Login-time environment setup
+   - **zshrc**: Interactive shell configuration
+   - **zlogin**: Login-time initialization
+   - **zlogout**: Cleanup tasks
+
+# ZSH execution flow diagram:
+
 ```mermaid
 flowchart TB
     subgraph login["Login Interactive Shell"]
         direction TB
-        loginDesc["First shell when you login to system<br>Examples: TTY login, SSH session"]
+        loginDesc[First shell when you login to system
+        Examples: TTY login, SSH session]
         loginStart(["Shell Startup"])
         
         subgraph lsys["System Files"]
@@ -28,7 +38,8 @@ flowchart TB
 
     subgraph nonlogin["Non-Login Interactive Shell"]
         direction TB
-        nonloginDesc["Additional shells in existing session<br>Examples: New terminal window, tmux pane"]
+        nonloginDesc[Additional shells in existing session
+        Examples: New terminal window, tmux pane]
         nonloginStart(["Shell Startup"])
         
         subgraph nlsys["System Files"]
@@ -46,7 +57,8 @@ flowchart TB
 
     subgraph script["Non-Interactive Shell"]
         direction TB
-        scriptDesc["Shell running scripts<br>Examples: ./script.sh, cron jobs"]
+        scriptDesc[Shell running scripts
+        Examples: ./script.sh, cron jobs]
         scriptStart(["Script Start"])
         
         subgraph ssys["System Files"]
